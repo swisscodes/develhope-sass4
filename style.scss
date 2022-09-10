@@ -36,6 +36,7 @@ body > div:first-child {
 
     &:last-of-type article {
       @include mix.article-style($c_green, $c_blue, func.pxToRem(24));
+      width: 100%;
     }
   }
 }
